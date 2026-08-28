@@ -7,8 +7,34 @@ import { Footer } from "../src/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Desa Genengsari | Website Resmi",
-  description: "Website Resmi Pemerintah Desa Genengsari, Kecamatan Kemusu, Kabupaten Boyolali. Informasi seputar profil, demografi, potensi, dan layanan desa.",
+  title: {
+    default: "Web Profil Resmi Desa Genengsari - Kemusu, Boyolali",
+    template: "%s | Desa Genengsari",
+  },
+  description: "Website Resmi Pemerintah Desa Genengsari, Kecamatan Kemusu, Kabupaten Boyolali. Pusat informasi publik seputar profil desa, sejarah, demografi, potensi ekonomi, dan fasilitas umum.",
+  keywords: [
+    "Desa Genengsari",
+    "Genengsari Kemusu",
+    "Genengsari Boyolali",
+    "Profil Desa Genengsari",
+    "Pemerintah Desa Genengsari",
+    "Kedung Ombo Genengsari",
+    "KKN Desa Genengsari",
+  ],
+  authors: [{ name: "Pemerintah Desa Genengsari" }],
+  openGraph: {
+    title: "Web Profil Resmi Desa Genengsari",
+    description: "Website Resmi Pemerintah Desa Genengsari, Kecamatan Kemusu, Kabupaten Boyolali.",
+    url: "https://desagenengsari26.github.io/Profile_Desa_Genengsari/",
+    siteName: "Desa Genengsari",
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Web Profil Resmi Desa Genengsari",
+    description: "Website Resmi Pemerintah Desa Genengsari, Kecamatan Kemusu, Kabupaten Boyolali.",
+  },
   verification: {
     google: "ujNVHg_5DX_iAv1OAGm1LRWkQPgBfRdpZ2ffVM645f0",
   },
