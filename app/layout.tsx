@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Desa Genengsari | Website Resmi",
   description: "Website Resmi Pemerintah Desa Genengsari, Kecamatan Kemusu, Kabupaten Boyolali. Informasi seputar profil, demografi, potensi, dan layanan desa.",
+  verification: {
+    google: "ujNVHg_5DX_iAv1OAGm1LRWkQPgBfRdpZ2ffVM645f0",
+  },
 };
 
 export default function RootLayout({
