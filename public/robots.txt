@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://desagenengsari26.github.io/Profile_Desa_Genengsari/sitemap.xml
